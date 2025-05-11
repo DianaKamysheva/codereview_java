@@ -14,17 +14,20 @@ public class Name {
     }
 
     // Перегруженный конструктор с двумя параметрами
-    public Name(String lastName, String firstName) {
-        this(lastName, firstName, "");  // patronymic будет пустым
+    public Name(String lastName, String firstName)
+    {
+        this(lastName, firstName, null);  // patronymic будет пустым
     }
 
     // Перегруженный конструктор с одним параметром
-    public Name(String lastName) {
+    public Name(String lastName)
+    {
         this(lastName, null, null);  // firstName и patronymic будут null
     }
 
     //Метод задания фамилии
-    public void setLastName(String lastName) {
+    public void setLastName(String lastName)
+    {
         this.lastName = lastName;
     }
 

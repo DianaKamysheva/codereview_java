@@ -50,14 +50,7 @@ class City {
         return sb.toString();
     }
 
-
-
-//        // Текстовое представление маршрута
-//        @Override
-//        public String toString() {
-//            return "    В город " + destination.name + " (" + cost + " руб)";
-//        }
-    }
+}
  // Внутренний класс для представления маршрута
 
 
